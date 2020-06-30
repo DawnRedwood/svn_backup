@@ -4,6 +4,7 @@
 > **概述**：本项目主要用于==SVN全量备份和增量备份==，所用命令为`svnadmin dump`。代码中使用的是DOS命令，因此主要用于Windows系统，通过在任务计划程序中创建任务定时启动程序实现定时备份。
 > 
 
+### 使用步骤 
 STEP1：修改`full_backup.py`，`increment_backup.py`文件中的参数  
 - SVN根目录：SVN_ROOT  
 - 仓库根目录：REPO_ROOT  
